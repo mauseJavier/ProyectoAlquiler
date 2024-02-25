@@ -18,18 +18,18 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        // $this->call(ClientesSeeder::class);
+        $this->call(ClientesSeeder::class);
 
         
-        \App\Models\clientes::factory()->create([
-            'nombre' => 'javer',
-            'dni' => '4234234',
-            'provincia' => 'nqn',
-            'localidad' => 'las lajas',
-            'direccion' => 'las lajas',
-            'telefono' => '234',
-            'correo' => 'correo',
-        ]);
+        // \App\Models\clientes::factory()->create([
+        //     'nombre' => 'javer',
+        //     'dni' => '4234234',
+        //     'provincia' => 'nqn',
+        //     'localidad' => 'las lajas',
+        //     'direccion' => 'las lajas',
+        //     'telefono' => '234',
+        //     'correo' => 'correo',
+        // ]);
 
 
     }
